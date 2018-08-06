@@ -46,6 +46,6 @@ class HospitalEmployee {
   console.log(nurseOlynyk.remainingVacationDays);
   nurseOlynyk.addCertification('Genetics');
   console.log(nurseOlynyk.certifications);
-  console.log(HospitalEmployee.generatePassword());
+  console.log(HospitalEmployee.generatePassword());               
   const doctor=new Doctor('anu',12,false);
   console.log(doctor.remainingVacationDays);
